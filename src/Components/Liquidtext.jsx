@@ -19,6 +19,7 @@ function LiquidText({ height = 520, className = "", style = {} }) {
       ctx.clearRect(0, 0, w, h);
 
       const cx = w / 2;
+      
 
       // ── "The Language" — Cinzel 900, clamp(2.8rem,8vw,7rem)
       // We resolve the clamp: use vw-based size capped
