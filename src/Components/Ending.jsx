@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import LiquidText from "./Temp";
+import LiquidText from "./LiquidText";
 
 gsap.registerPlugin(ScrollTrigger);
 
